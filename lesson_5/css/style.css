@@ -1,0 +1,61 @@
+/* .................. СКИДАННЯ СТИЛІВ  .................. */
+@import url(reset.css);
+
+/* ==================== ОСНОВНІ СТИЛІ ==================== */
+
+* {
+  color: red;
+}
+
+h1 {
+  color: blueviolet;
+}
+
+.black-text {
+  color: black;
+}
+
+[class*="-text"] {
+  color: goldenrod;
+}
+
+#keyword {
+  color: tomato;
+}
+
+p.simple-text {
+  color: palegreen;
+}
+
+.header.bold {
+  color: magenta;
+}
+
+.simple-text,
+.black-text {
+  color: maroon;
+}
+
+.green-section p {
+  color: lawngreen;
+}
+
+.sienna-section .black-text {
+  color: sienna;
+}
+
+.aqua-section * {
+  color: aqua;
+}
+
+div > p {
+  color: coral
+}
+
+div ~h2 {
+  color: orange
+}
+
+p + a {
+  color: indigo
+}
