@@ -1,61 +1,56 @@
-/* .................. СКИДАННЯ СТИЛІВ  .................. */
+/* ............................ПІДКЛЮЧЕННЯ ШРІФТІВ ВРУЧНУ .................. */
+@import url("fonts.css");
+
+/* ............................СКИДАННЯ СТИЛІВ  .................. */
 @import url(reset.css);
 
-/* ==================== ОСНОВНІ СТИЛІ ==================== */
 
-* {
-  color: red;
+body {
+  font-family: "Blogger Sans", sans-serif;
+  font-size: 18px;
+  color: #555555;
+  line-height: 1.5;
+}
+.header {
+  color: gold;
+  font-size: 36px;
+  font-family: "Causten", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 3px 3px 3px rgba(0, 0, 2, 0.9);;
+  line-height: 1.3;
+  word-spacing: 5px;
+}
+.img {
+  text-align: center;
 }
 
-h1 {
-  color: blueviolet;
+/* .................. МАКЕТ  .................. */
+.block-title {
+  color: #37393f;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.27;
 }
 
-.black-text {
-  color: black;
+.block-text {
+  color: #7d7d7d;
+  font-family: "Inter", sans-serif;
+  line-height: 1.46;
 }
 
-[class*="-text"] {
-  color: goldenrod;
+.block-subtitle {
+  color: #6b77e5;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.27;
 }
 
-#keyword {
-  color: tomato;
-}
-
-p.simple-text {
-  color: palegreen;
-}
-
-.header.bold {
-  color: magenta;
-}
-
-.simple-text,
-.black-text {
-  color: maroon;
-}
-
-.green-section p {
-  color: lawngreen;
-}
-
-.sienna-section .black-text {
-  color: sienna;
-}
-
-.aqua-section * {
-  color: aqua;
-}
-
-div > p {
-  color: coral
-}
-
-div ~h2 {
-  color: orange
-}
-
-p + a {
-  color: indigo
+.block-list {
+  color: #7d7d7d;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  line-height: 1.46;
 }
