@@ -1,0 +1,163 @@
+@import url(fonts.css);
+@import url(reset.css);
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  color: #7d7d7d;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-title {
+  font-size: 36px;
+  color: #ed9049;
+  text-shadow: 5px 10px 10px #610303, 4px 4px 2px #676667;
+  text-transform: uppercase;
+  line-height: 2;
+  letter-spacing: 5px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.management-container {
+  padding: 50px 15px;
+  max-width: 722px;
+  margin: 0 auto;
+}
+
+.management-img,
+.benefits-img {
+  max-width: 100%;
+}
+
+.management-img {
+  margin-bottom: 37px;
+}
+
+.management-title,
+.management-subtitle,
+.benefits-title,
+.benefits-subtitle {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.27;
+  font-weight: 600;
+}
+
+.management-title {
+  color: #37393f;
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+
+.management-text {
+  line-height: 1.46;
+  margin-bottom: 40px;
+}
+
+.management-subtitle {
+  color: #6b77e5;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.benefits {
+  font-size: 0;
+  margin-bottom: 48px;
+}
+
+.benefits-img {
+  width: 331px;
+  margin-right: 29px;
+}
+
+.benefits-content {
+  display: inline-block;
+  width: 332px;
+  font-size: 18px;
+}
+
+.benefits-title {
+  color: #37393f;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.benefits-subtitle {
+  color: #40ddb6;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.benefits-list {
+  line-height: 1.5;
+}
+
+.benefits-item {
+  margin-bottom: 30px;
+}
+
+.last {
+  margin-bottom: 0;
+}
+
+.jewels-container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 140px auto;
+  font-size: 0;
+}
+
+.jewels-content {
+  display: inline-block;
+  width: 563px;
+  font-size: 20px;
+  margin-right: 38px;
+  padding-top: 20px;
+}
+
+.jewels-subtitle {
+  color: #d06b00;
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+.jewels-title {
+  color: #0e333d;
+  font-family: "DM Serif Text", serif;
+  font-size: 59px;
+  line-height: 1.46;
+}
+
+.jewels-text {
+  color: #474747;
+  line-height: 1.8;
+}
+
+.jewels-img {
+  width: 273px;
+}
+
+.jewels-img-left {
+  margin-right: 22px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-text {
+  text-align: center;
+  line-height: 2;
+  letter-spacing: 5px;
+}
+
+.footer-link {
+  font-size: 24px;
+  color: #000dbe;
+  
+}
